@@ -6,6 +6,8 @@
 
 // Not actually a hash table yet..
 
+// Testing
+
 template <class T>
 struct Node{
 
