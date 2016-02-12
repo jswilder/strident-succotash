@@ -1,12 +1,12 @@
 CC=g++
 CFLAGS=-Wall -g
 
-BINS= test1
+BINS= primes
 
 all: $(BINS)
-	
-test1: test.cpp
-	$(CC) $(CFLAGS) test.cpp -o test1
-	
+
+Sundaram: primes.cpp
+	$(CC) $(CFLAGS) primes.cpp -o run
+
 clean:
-	rm *.o *.h.gch *~ a.out
+	rm $(BINS)
